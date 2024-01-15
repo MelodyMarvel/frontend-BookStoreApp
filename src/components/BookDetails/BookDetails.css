@@ -1,0 +1,87 @@
+/* BookDetails.css */
+
+/* Style for the entire section */
+.details {
+    padding: 20px;
+  }
+  
+  /* Style for the back button */
+  .back-btn {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    font-size: 18px;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .back-btn:hover {
+    color: #007bff;
+  }
+  
+  /* Style for the error message */
+  .error-message {
+    font-size: 18px;
+    color: red;
+  }
+  
+  /* Style for the book details container */
+  .book-details {
+    display: flex;
+    margin-top: 20px;
+    color: #fff;
+    background: #000000b6;
+
+
+  }
+  
+  /* Style for the book cover image */
+  .book-details-img {
+    flex: 1;
+    margin-right: 10px;
+  }
+  
+  .book-details-img img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  /* Style for the book details information */
+  .book-details-info {
+    flex: 2;
+    font-size: 16px;
+    color: #fff;
+  }
+  
+  /* Style for the book title */
+  .book-details-item.title {
+    font-weight: bold;
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  /* Style for the authors */
+  .book-details-item.authors {
+    margin-bottom: 10px;
+    font-weight: 600;
+  }
+  
+  /* Style for the book description */
+  .book-details-item.description {
+    margin-bottom: 10px;
+  }
+  
+  /* Style for categories and published date */
+  .book-details-item {
+    margin-bottom: 5px;
+  }
+  
+  /* Style for the "Add to Cart" button */
+  button.red-text {
+    color: red;
+  }
+  
+  button.red-text:hover {
+    color: #d9534f;
+  }
+  
